@@ -1,0 +1,75 @@
+﻿/*pagina jogo da velha*/
+
+img#um{
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+img#dois{
+	position: absolute;
+	margin-left: 101px;
+	margin-top: 0px;
+}
+
+img#tres{
+	position: absolute;
+	margin-left: 202px;
+	margin-top: 0px;
+}
+
+img#quatro{
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 101px;
+}
+
+img#cinco{
+	position: absolute;
+	margin-left: 101px;
+	margin-top: 101px;
+}
+
+img#seis{
+	position: absolute;
+	margin-left: 202px;
+	margin-top: 101px;
+}
+
+img#sete{
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 202px;
+}
+
+img#oito{
+	position: absolute;
+	margin-left: 101px;
+	margin-top: 202px;
+}
+
+img#nove{
+	position: absolute;
+	margin-left: 202px;
+	margin-top: 202px;
+}
+
+body#veia {
+	background-image: white;
+}
+
+section#velha {
+	background-color: black;
+	position: absolute;
+	margin-left:1px;
+	margin-top: 1px;
+	width: 300px;
+	height: 300px;
+}
+
+img#velhinha {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	margin-left: 750px;
+}
