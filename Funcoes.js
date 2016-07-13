@@ -16,7 +16,7 @@ function aleatorio() {
 		
 		if (j==1) {
 			if (um == 0) {
-		document.getElementById('um').src='imagens/o.png';
+		document.getElementById('um').src='o.png';
 		a++;
 		um = -1;
 		} else {};
@@ -24,7 +24,7 @@ function aleatorio() {
 		
 		if (j==2) {
 			if (dois == 0) {
-		document.getElementById('dois').src='imagens/o.png';
+		document.getElementById('dois').src='o.png';
 		a++;
 		dois = -1;
 		} else {};
@@ -32,7 +32,7 @@ function aleatorio() {
 		
 		if (j==3) {
 			if (tres == 0) {
-		document.getElementById('tres').src='imagens/o.png';
+		document.getElementById('tres').src='o.png';
 		a++;
 		tres = -1;
 		} else {};
@@ -40,7 +40,7 @@ function aleatorio() {
 		
 		if (j==4) {
 			if (quatro == 0) {
-		document.getElementById('quatro').src='imagens/o.png';
+		document.getElementById('quatro').src='o.png';
 		a++;
 		quatro = -1;
 		} else {};
@@ -48,7 +48,7 @@ function aleatorio() {
 		
 		if (j==5) {
 			if (cinco == 0) {
-		document.getElementById('cinco').src='imagens/o.png';
+		document.getElementById('cinco').src='o.png';
 		a++;
 		cinco = -1;
 		} else {};
@@ -56,7 +56,7 @@ function aleatorio() {
 		
 		if (j==6) {
 			if (seis == 0) {
-		document.getElementById('seis').src='imagens/o.png';
+		document.getElementById('seis').src='o.png';
 		a++;
 		seis = -1;
 		} else {};
@@ -64,7 +64,7 @@ function aleatorio() {
 		
 		if (j==7) {
 			if (sete == 0) {
-		document.getElementById('sete').src='imagens/o.png';
+		document.getElementById('sete').src='o.png';
 		a++;
 		sete = -1;
 		} else {};
@@ -72,7 +72,7 @@ function aleatorio() {
 		
 		if (j==8) {
 			if (oito == 0) {
-		document.getElementById('oito').src='imagens/o.png';
+		document.getElementById('oito').src='o.png';
 		a++;
 		oito = -1;
 		} else {};
@@ -80,7 +80,7 @@ function aleatorio() {
 		
 		if (j==9) {
 			if (nove == 0) {
-		document.getElementById('nove').src='imagens/o.png';
+		document.getElementById('nove').src='o.png';
 		a++;
 		nove = -1;
 		} else {};
@@ -92,7 +92,7 @@ function aleatorio() {
 function jogo1(id) {
 	if (um == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		um = 1;}
 	else {}
@@ -102,7 +102,7 @@ function jogo1(id) {
 function jogo2(id) {
 	if (dois == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		dois = 1;}
 	else {}
@@ -112,7 +112,7 @@ function jogo2(id) {
 function jogo3(id) {
 	if (tres == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		tres = 1;}
 	else {}
@@ -122,7 +122,7 @@ function jogo3(id) {
 function jogo4(id) {
 	if (quatro == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		quatro = 1;}
 	else {}
@@ -132,7 +132,7 @@ function jogo4(id) {
 function jogo5(id) {
 	if (cinco == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		cinco = 1;}
 	else {}
@@ -142,7 +142,7 @@ function jogo5(id) {
 function jogo6(id) {
 	if (seis == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		seis = 1;}
 	else {}
@@ -152,7 +152,7 @@ function jogo6(id) {
 function jogo7(id) {
 	if (sete == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		sete = 1;}
 	else {}
@@ -162,7 +162,7 @@ function jogo7(id) {
 function jogo8(id) {
 	if (oito == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		oito = 1;}
 	else {}
@@ -172,7 +172,7 @@ function jogo8(id) {
 function jogo9(id) {
 	if (nove == 0) {
 	if (a % 2 == 0){
-		document.getElementById(id).src='imagens/x.png';
+		document.getElementById(id).src='x.png';
 		a++;
 		nove = 1;}
 	else {}
@@ -181,12 +181,12 @@ function jogo9(id) {
 
 function ganha() {
 	if (((um == 1) && (dois == 1) && (tres == 1)) || ((um == 1) && (quatro == 1) && (sete == 1)) || ((um == 1) && (cinco == 1) && (nove == 1)) || ((quatro == 1) && (cinco == 1) && (seis == 1)) || ((sete == 1) && (oito == 1) && (nove == 1)) || ((dois == 1) && (cinco == 1) && (oito == 1)) || ((tres == 1) && (seis == 1) && (nove == 1)) || ((tres == 1) && (cinco == 1) && (sete == 1))) {
-		document.write('<html><img src="imagens/ganhou.jpg" <p>voce ganhou!</p></html>');
+		document.write('<html><img src="ganhou.jpg" <p>voce ganhou!</p></html>');
 	} else {
 		if (((um == -1) && (dois == -1) && (tres == -1)) || ((um == -1) && (quatro == -1) && (sete == -1)) || ((um == -1) && (cinco == -1) && (nove == -1)) || ((quatro == -1) && (cinco == -1) && (seis == -1)) || ((sete == -1) && (oito == -1) && (nove == -1)) || ((dois == -1) && (cinco == -1) && (oito == -1)) || ((tres == -1) && (seis == -1) && (nove == -1)) || ((tres == -1) && (cinco == -1) && (sete == -1))) {
-			document.write('<html><img src="imagens/perdeu.jpg"/> <p>voce perdeu!</p></html>');
+			document.write('<html><img src="perdeu.jpg"/> <p>voce perdeu!</p></html>');
 		} else {if (a==9) {
-			document.write('<html><img src="imagens/deuvelha.gif"/> <p>Deu velha!</p></html>');
+			document.write('<html><img src="deuvelha.gif"/> <p>Deu velha!</p></html>');
 		} else{}
 	}
 }
